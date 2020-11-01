@@ -1,1 +1,16 @@
-I first tried to do the recommender system with the movie 'Home Alone'. Unfortunately, I got little to no result. So I changed it the movie with 'Scary Movie', as it has more than one part and it fits the current time of the year (halloween). After this I had a problem with the rank limit of > 0.5 as it was set too high. I first tried to do it without but then I had the problem of negative rankings. So i included the value rank > 0.001.
+I first tried to do the recommender system with the movie 'Home Alone'. 
+Unfortunately, I got little to no result. So I changed it to the movie with 'Scary Movie', 
+as it has more than one part and it fits the current time of the year (halloween). 
+After this I had a problem with the rank limit of > 0.5 as it was set too high. 
+I first tried to do it without but then I had the problem of negative rankings. 
+So i included the value rank > 0.001.
+
+First I did my recommender system based on the Summary. I looked for the word 'scary'. 
+It showed me many different genres, including horror movies, dytopian movies but also movies like Sex and the City.
+As Scary Movie is also a parody I thought of looking for movies with Anna Faris, as she was part of all Scary Movie parts,
+but also starred in other parodies/funny movies. The results this time were much more accurate from my personal view.
+All recommended movies are movies that I like.
+To also check it with a 3rd field, I used the title. Here I got only Scary Movie 1-5 which I would not see as a good 
+recommender system.
+
+Therefore, I think the recommender system that search for movies with Anna Faris in it ('Starring'), has the best outcome.

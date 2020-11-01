@@ -1,6 +1,8 @@
 DROP TABLE movies;
 DROP TABLE RecommendationsBasedOnSummaryField;
 
+-- here we create our table called movies and give them all the datatype text to simplify things for now
+
 CREATE TABLE movies (
 url text, 
 title text, 
